@@ -9,7 +9,7 @@ python3.9 -m pip install --upgrade pip
 python3.9 -m pip install --upgrade distlib
 python3.9 -m pip install --upgrade poetry
 
-#sudo update-alternatives --set python /usr/bin/python3.9
+sudo update-alternatives --set python /usr/bin/python3.9
 #sudo ln -sf /usr/bin/python /usr/local/bin/python
 
 # サンキュー 小松
