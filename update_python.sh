@@ -20,8 +20,8 @@ sudo update-alternatives --config python
 python --version
 
 # t5-japanese を持ってくる
-git clone https://github.com/megagonlabs/t5-japanese.git
+#git clone https://github.com/megagonlabs/t5-japanese.git
 
 # teruch5
-cd t5-japanese
-!poetry install
+#cd t5-japanese
+#poetry install
