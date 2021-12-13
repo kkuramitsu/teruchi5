@@ -1,21 +1,21 @@
-sudo add-apt-repository -y ppa:deadsnakes/ppa
-sudo apt-get -y update
-sudo apt-get -y install python3.9
-sudo apt-get -y install python3.9-dev
-sudo apt-get -y install python3-pip
-sudo apt-get -y install python3.9-distutils
+add-apt-repository -y ppa:deadsnakes/ppa
+apt-get -y update
+apt-get -y install python3.9
+apt-get -y install python3.9-dev
+apt-get -y install python3-pip
+apt-get -y install python3.9-distutils
 python3.9 -m pip install --upgrade setuptools
 python3.9 -m pip install --upgrade pip
 python3.9 -m pip install --upgrade distlib
 python3.9 -m pip install --upgrade poetry
 
-sudo update-alternatives --set python /usr/bin/python3.9
+update-alternatives --set python /usr/bin/python3.9
 #sudo ln -sf /usr/bin/python /usr/local/bin/python
 
 # サンキュー 小松
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.7 1
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.9 2
-sudo update-alternatives --config python
+update-alternatives --install /usr/bin/python python /usr/bin/python3.7 1
+update-alternatives --install /usr/bin/python python /usr/bin/python3.9 2
+update-alternatives --config python
 
 python --version
 
